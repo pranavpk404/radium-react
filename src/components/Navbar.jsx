@@ -8,12 +8,13 @@ const Navbar = ({ darkTheme, setDarkTheme }) => {
           <p className="text-2xl ">Radon</p>
         </Link>
         <button
-          className="text-xl  bg-white rounded-full p-2
+          className="text-xl  rounded-full p-2
            hover:shadow-lg hover:shadow-slate-900
-           dark:bg-gray-700  dark:hover:shadow-slate-50"
+             dark:hover:shadow-slate-50"
           type="button"
           onClick={() => {
             setDarkTheme(!darkTheme);
+            localStorage.setItem("darkTheme", !darkTheme);
           }}
         >
           {darkTheme ? "💡" : "🌙"}
