@@ -5,7 +5,7 @@ const Navbar = ({ darkTheme, setDarkTheme }) => {
     <nav className="p-5 flex flex-wrap sm:justify-between justify-center items-center ">
       <div className="flex justify-between items-center space-x-5 w-screen">
         <Link to="/">
-          <p className="text-2xl ">Radon</p>
+          <p className="text-2xl ">radium</p>
         </Link>
         <button
           className="text-xl  rounded-full p-2
