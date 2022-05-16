@@ -30,7 +30,7 @@ const Searchbox = () => {
         type="text"
         id="searchBar"
         className="sm:w-96 w-80 h-10 dark:bg-gray-700 dark:text-white rounded-full shadow-sm outline-none p-6 text-black hover:shadow-lg"
-        placeholder="Search Radon or type URL"
+        placeholder="Search radium or type URL"
         onChange={(e) => setText(e.target.value)}
       />
       {text !== "" && (
